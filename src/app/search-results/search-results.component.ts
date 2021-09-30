@@ -6,9 +6,16 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./search-results.component.css']
 })
 export class SearchResultsComponent implements OnInit {
+  @Input() loading: string[] = [];
 
+  // property: number;
+  // method(){
+
+  // }
   constructor() { }
 
   ngOnInit(): void {
+
   }
+
 }
